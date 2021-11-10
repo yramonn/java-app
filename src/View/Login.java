@@ -40,35 +40,35 @@ public class Login extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        getContentPane().add(CampoSenha, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 590, 150, 30));
+        getContentPane().add(CampoSenha, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 410, 150, 30));
 
         CampoUsuario.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 CampoUsuarioActionPerformed(evt);
             }
         });
-        getContentPane().add(CampoUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 510, 140, 30));
+        getContentPane().add(CampoUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 320, 140, 30));
 
         TextSenha.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         TextSenha.setForeground(new java.awt.Color(255, 255, 255));
         TextSenha.setText("Senha");
-        getContentPane().add(TextSenha, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 550, 130, 40));
+        getContentPane().add(TextSenha, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 360, 130, 40));
 
         TextUsuario.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         TextUsuario.setForeground(new java.awt.Color(255, 255, 255));
         TextUsuario.setText("Usuário");
-        getContentPane().add(TextUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 470, 130, 40));
+        getContentPane().add(TextUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 270, 130, 40));
 
         TextLogin.setFont(new java.awt.Font("Times New Roman", 1, 34)); // NOI18N
         TextLogin.setForeground(new java.awt.Color(255, 255, 255));
         TextLogin.setText("Login");
-        getContentPane().add(TextLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 420, -1, -1));
+        getContentPane().add(TextLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 210, -1, -1));
 
         jLabelPainel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/View/imagens/painel-login.png"))); // NOI18N
-        getContentPane().add(jLabelPainel, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 360, 290, 340));
+        getContentPane().add(jLabelPainel, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 160, 290, 340));
 
         jLabelFundo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/View/imagens/Logo.jpg"))); // NOI18N
-        getContentPane().add(jLabelFundo, new org.netbeans.lib.awtextra.AbsoluteConstraints(-40, 50, 795, -1));
+        getContentPane().add(jLabelFundo, new org.netbeans.lib.awtextra.AbsoluteConstraints(-50, -60, 795, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
